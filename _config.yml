@@ -1,15 +1,15 @@
 layout: sidebar
 style: light
 
+# [planetjekyll/awesome-jekyll-plugins: A collection of awesome Jekyll plugins (gems, scripts, pasties, etc.)](https://github.com/planetjekyll/awesome-jekyll-plugins)
 plugins:
-  - jekyll-octicons
-  - jekyll-github-metadata
+  - jekyll-octicons          # [Octicons](https://octicons.github.com/)
+  - jekyll-github-metadata   # [GitHub Metadata, a.k.a. site.github | GitHub Metadata](https://jekyll.github.io/github-metadata/)
 
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts"
     values:
@@ -28,62 +28,62 @@ topics:
     web_url: https://github.com/topics/machine-learning
     image_url: https://re.deepinsider.jp/img/ml-logo/ai.svg
 
-  # - name: Jupyter Notebook
-  #   web_url: https://github.com/topics/jupyter-notebook
-  #   image_url: https://raw.githubusercontent.com/github/explore/149e057770c384ddaba0393b369c2c8f16e433bb/topics/jupyter-notebook/jupyter-notebook.png
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://re.deepinsider.jp/img/ml-logo/python.svg
 
-  # - name: Deep learning
-  #   web_url: https://github.com/topics/deep-learning
-  #   image_url: https://re.deepinsider.jp/img/ml-logo/dnn.svg
+  - name: Jupyter Notebook
+    web_url: https://github.com/topics/jupyter-notebook
+    image_url: https://raw.githubusercontent.com/github/explore/149e057770c384ddaba0393b369c2c8f16e433bb/topics/jupyter-notebook/jupyter-notebook.png
 
-  # - name: Machine learning
-  #   web_url: https://github.com/topics/machine-learning
-  #   image_url: https://re.deepinsider.jp/img/ml-logo/ai.svg
+  - name: Deep learning
+    web_url: https://github.com/topics/deep-learning
+    image_url: https://re.deepinsider.jp/img/ml-logo/dnn.svg
 
-  # - name: Python
-  #   web_url: https://github.com/topics/python
-  #   image_url: https://re.deepinsider.jp/img/ml-logo/python.svg
+  - name: scikit-learn
+    web_url: https://github.com/topics/scikit-learn
+    image_url: https://raw.githubusercontent.com/github/explore/cfd3599f6002d091325882369e7937113f792e58/topics/scikit-learn/scikit-learn.png
 
-  # - name: scikit-learn
-  #   web_url: https://github.com/topics/scikit-learn
-  #   image_url: https://raw.githubusercontent.com/github/explore/cfd3599f6002d091325882369e7937113f792e58/topics/scikit-learn/scikit-learn.png
+  - name: Chainer
+    web_url: https://github.com/topics/chainer
+    image_url: https://re.deepinsider.jp/img/ml-logo/chainer.svg
 
-  # - name: Chainer
-  #   web_url: https://github.com/topics/chainer
-  #   image_url: https://re.deepinsider.jp/img/ml-logo/chainer.svg
+  - name: PyTorch
+    web_url: https://github.com/topics/pytorch
+    image_url: https://re.deepinsider.jp/img/ml-logo/pytorch.svg
 
-  # - name: PyTorch
-  #   web_url: https://github.com/topics/pytorch
-  #   image_url: https://re.deepinsider.jp/img/ml-logo/pytorch.svg
+  - name: The Julia Language
+    web_url: https://github.com/topics/julia
+    image_url: https://raw.githubusercontent.com/github/explore/49e13f12be05e7e3f3616bb7a5030d70b259f320/topics/julia/julia.png
 
-  # - name: Arduino
-  #   web_url: https://github.com/topics/arduino
-  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/arduino/arduino.png
+  - name: Arduino
+    web_url: https://github.com/topics/arduino
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/arduino/arduino.png
 
-  # - name: Raspberry Pi
-  #   web_url: https://github.com/topics/raspberry-pi
-  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/raspberry-pi/raspberry-pi.png
+  - name: Raspberry Pi
+    web_url: https://github.com/topics/raspberry-pi
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/raspberry-pi/raspberry-pi.png
 
-  # - name: Electron
-  #   web_url: https://github.com/topics/electron
-  #   image_url: https://raw.githubusercontent.com/github/explore/0c94d4af11c3f43f99170bd60329fa9285ca456b/topics/electron/electron.png
+  - name: Electron
+    web_url: https://github.com/topics/electron
+    image_url: https://raw.githubusercontent.com/github/explore/0c94d4af11c3f43f99170bd60329fa9285ca456b/topics/electron/electron.png
 
-  # - name: JavaScript
-  #   web_url: https://github.com/topics/javascript
-  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+  - name: JavaScript
+    web_url: https://github.com/topics/javascript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
 
-  # - name: TypeScript
-  #   web_url: https://github.com/topics/typescript
-  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/typescript/typescript.png
+  - name: TypeScript
+    web_url: https://github.com/topics/typescript
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/typescript/typescript.png
 
-  # - name: C#
-  #   web_url: https://github.com/topics/csharp
-  #   image_url: https://raw.githubusercontent.com/github/explore/7f96d7ea34ea0b21f159792a6a8f43b716b33379/topics/csharp/csharp.png
+  - name: C#
+    web_url: https://github.com/topics/csharp
+    image_url: https://raw.githubusercontent.com/github/explore/7f96d7ea34ea0b21f159792a6a8f43b716b33379/topics/csharp/csharp.png
 
-  # - name: .NET
-  #   web_url: https://github.com/topics/dotnet
-  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/dotnet/dotnet.png
+  - name: .NET
+    web_url: https://github.com/topics/dotnet
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/dotnet/dotnet.png
 
-  # - name: ASP.NET
-  #   web_url: https://github.com/topics/aspnet
-  #   image_url: https://raw.githubusercontent.com/github/explore/810200c742ba8daf9eaf98bbbde9f4eb2149fd8d/topics/aspnet/aspnet.png
+  - name: ASP.NET
+    web_url: https://github.com/topics/aspnet
+    image_url: https://raw.githubusercontent.com/github/explore/810200c742ba8daf9eaf98bbbde9f4eb2149fd8d/topics/aspnet/aspnet.png
