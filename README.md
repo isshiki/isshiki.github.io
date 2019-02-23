@@ -33,7 +33,7 @@ gem install jekyll bundler
 ```
 3. Change into your new directory
 ```
-cd personal-website
+cd isshiki.github.io
 ```
 4. Build the site and make it available on a local server
 ```
@@ -45,7 +45,7 @@ bundle exec jekyll serve
 
 When you host your personal website's code on GitHub, you get the support of free hosting through GitHub Pages.
 
-**The fastest approach** is to rename your repository `username.github.io`, where `username` is your GitHub username (or organization name). Then, the next time you push any changes to your repository's `master` branch, they'll be accessible on the web at your `username.github.io` address.
+**The fastest approach** is to rename your repository `username.github.io`, where `username` is your GitHub username (or organization name). Then, the next time you push any changes to your repository's `master` branch, they'll be accessible on the web at your `username.github.io` address. isshiki.github.io.
 
 **If you want to use a custom domain**, however, you'll want to add it to your repository's "Custom domain" settings on github.com. And then register and/or [configure your domain with a DNS provider](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
 
